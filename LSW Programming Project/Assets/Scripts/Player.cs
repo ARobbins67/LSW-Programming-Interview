@@ -7,12 +7,13 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float Speed;
 
+    private Rigidbody2D rb;
     private Vector2 moveVec = Vector2.zero;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -25,6 +26,6 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         moveVec.Normalize();
-        gameObject.transform.Translate(moveVec*.01f*Speed);
+        rb.MovePosition(rb.position + moveVec*.01f*Speed);
     }
 }
