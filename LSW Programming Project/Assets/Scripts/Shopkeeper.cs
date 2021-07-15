@@ -21,7 +21,9 @@ public class Shopkeeper : MonoBehaviour
     {
         if (bCanEnterMenu && Input.GetKeyDown(KeyCode.E))
         {
+            PromptText.SetActive(false);
             DialogueObject.SetActive(true);
+            bCanEnterMenu = false;
         }
     }
 

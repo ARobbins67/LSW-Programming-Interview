@@ -26,6 +26,7 @@
           <e p="CharacterCustomization.cs" t="Include" />
           <e p="ClothingComponent.cs" t="Include" />
           <e p="Dialogue.cs" t="Include" />
+          <e p="Gold.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="Shopkeeper.cs" t="Include" />
         </e>
