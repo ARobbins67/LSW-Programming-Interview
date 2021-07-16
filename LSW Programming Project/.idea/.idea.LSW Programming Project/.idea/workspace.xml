@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2fd7f13d-8c5f-4cbd-af87-da3a93c8dc17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LSW Programming Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LSW Programming Project/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LSW Programming Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LSW Programming Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/8bitOperatorPlus-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/8bitOperatorPlus-Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +98,7 @@
       <updated>1626214795434</updated>
       <workItem from="1626214816278" duration="4721000" />
       <workItem from="1626305594736" duration="17808000" />
+      <workItem from="1626387947960" duration="599000" />
     </task>
     <servers />
   </component>
