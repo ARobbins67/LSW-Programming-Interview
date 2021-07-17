@@ -9,8 +9,10 @@
         <e p="Art" t="Include">
           <e p="Characters" t="Include">
             <e p="License.txt" t="Include" />
-            <e p="Spritesheet" t="Include">
-              <e p="spritesheetInfo.txt" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="Spritesheet" t="Include">
+                <e p="spritesheetInfo.txt" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Inside Environment" t="Include">

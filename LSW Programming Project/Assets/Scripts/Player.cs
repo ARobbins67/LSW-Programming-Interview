@@ -9,11 +9,10 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 moveVec = Vector2.zero;
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -22,6 +21,12 @@ public class Player : MonoBehaviour
     {
         moveVec.x = Input.GetAxis("Horizontal");
         moveVec.y = Input.GetAxis("Vertical");
+    }
+
+    private void OnApplicationQuit()
+    {
+        Debug.Log("Quitting");
+        PlayerPrefs.DeleteAll();
     }
 
     private void FixedUpdate()

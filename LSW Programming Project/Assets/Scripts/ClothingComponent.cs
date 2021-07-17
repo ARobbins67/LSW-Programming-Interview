@@ -14,12 +14,13 @@ public class ClothingComponent : MonoBehaviour
     [SerializeField] private GameObject UIOutput;
     [SerializeField] private TextMeshProUGUI PriceText;
     [SerializeField] private TextMeshProUGUI DescriptionText;
-    [SerializeField] private SpriteRenderer PlayerRend;
     [SerializeField] private GameObject ItemAlreadyOwned;
     [SerializeField] private GameObject BuyButton;
     [SerializeField] private GameObject SellButton;
     [SerializeField] private GameObject EquipButton;
 
+    private GameObject ClothingObj;
+    private SpriteRenderer clothingRend; // renderer of the in-game player (not menu preview)
     private List<Sprite> PlayerInventory = new List<Sprite>();
     private Sprite currentSprite = null;
     private Image UIImage;
@@ -36,16 +37,19 @@ public class ClothingComponent : MonoBehaviour
 
     void Start()
     {
-        CheckInventory();
-        //PlayerInventory.Add(PlayerRend.sprite);
-        UIImage.sprite = currentSprite;
+        //CheckInventory();
     }
 
     private void OnEnable()
     {
+        GameObject PlayerObj = GameObject.FindWithTag("Player");
+        ClothingObj = GameObject.FindWithTag("Player").transform.Find(gameObject.name).gameObject;
+        clothingRend = ClothingObj.GetComponent<SpriteRenderer>();
+        
         // when menu opens, make preview the player's current clothes
-        index = Options.IndexOf(PlayerRend.sprite);
+        index = Options.IndexOf(clothingRend.sprite);
         currentSprite = Options[index];
+        UIImage.sprite = currentSprite;
         CheckInventory();
     }
 
@@ -109,9 +113,9 @@ public class ClothingComponent : MonoBehaviour
     // unequip item and remove from player inventory
     public void Sell()
     {
-        if (PlayerRend.sprite == Options[index])
+        if (clothingRend.sprite == Options[index])
         {
-            PlayerRend.sprite = PlayerInventory[0]; // default clothing
+            clothingRend.sprite = PlayerInventory[0]; // default clothing
         }
         Gold.ChangeGold(Price);
         PlayerInventory.Remove(Options[index]);
@@ -120,6 +124,6 @@ public class ClothingComponent : MonoBehaviour
 
     public void Equip()
     {
-        PlayerRend.sprite = Options[index];
+        clothingRend.sprite = Options[index];
     }
 }

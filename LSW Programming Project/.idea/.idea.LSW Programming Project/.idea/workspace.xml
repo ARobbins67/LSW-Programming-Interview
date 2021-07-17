@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd7f13d-8c5f-4cbd-af87-da3a93c8dc17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LSW Programming Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LSW Programming Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LSW Programming Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LSW Programming Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters/Spritesheet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters/Spritesheet/roguelikeChar_magenta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters/Spritesheet/roguelikeChar_magenta.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters/Spritesheet/roguelikeChar_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters/Spritesheet/roguelikeChar_transparent.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters/Spritesheet/spritesheetInfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters/Spritesheet/spritesheetInfo.txt.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ClothingStore.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ClothingStore.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Outside.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Outside.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClothingComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClothingComponent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnterDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnterDoor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shopkeeper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shopkeeper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerSpawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +63,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Gold.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CharacterCustomization.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ClothingComponent.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EnterDoor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shopkeeper.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NPC.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerSpawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ClothingComponent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnterDoor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vHMvKxoTPP7OPl1EGMKN0Oa6yJ" />
@@ -115,7 +125,7 @@
       <workItem from="1626214816278" duration="4721000" />
       <workItem from="1626305594736" duration="17808000" />
       <workItem from="1626387947960" duration="1296000" />
-      <workItem from="1626469649378" duration="6012000" />
+      <workItem from="1626469649378" duration="16873000" />
     </task>
     <servers />
   </component>
