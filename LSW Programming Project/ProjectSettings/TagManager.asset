@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Environment (Collision)
+    uniqueID: 3837578583
+    locked: 0
+  - name: Characters
+    uniqueID: 1917243347
+    locked: 0
+  - name: Environment (No Collision)
+    uniqueID: 1597805899
+    locked: 0

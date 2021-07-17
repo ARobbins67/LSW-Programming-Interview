@@ -1,20 +1,14 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shopkeeper : MonoBehaviour
+public class NPC : MonoBehaviour
 {
-    [SerializeField] private GameObject DialogueObject;
+    [Header("References")]
+    [SerializeField] private GameObject DialogueMenu;
     [SerializeField] private GameObject PromptText;
     
     private bool bCanEnterMenu = false;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -22,7 +16,7 @@ public class Shopkeeper : MonoBehaviour
         if (bCanEnterMenu && Input.GetKeyDown(KeyCode.E))
         {
             PromptText.SetActive(false);
-            DialogueObject.SetActive(true);
+            DialogueMenu.SetActive(true);
             bCanEnterMenu = false;
         }
     }
