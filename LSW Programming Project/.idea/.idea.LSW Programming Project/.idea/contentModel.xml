@@ -13,8 +13,14 @@
               <e p="spritesheetInfo.txt" t="Include" />
             </e>
           </e>
-          <e p="Environment" t="Include">
+          <e p="Inside Environment" t="Include">
             <e p="README.txt" t="Include" />
+          </e>
+          <e p="Outside Environment" t="Include">
+            <e p="License.txt" t="Include" />
+            <e p="Spritesheet" t="Include">
+              <e p="spritesheetInfo.txt" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Font" t="Include">
@@ -26,6 +32,8 @@
           <e p="CharacterCustomization.cs" t="Include" />
           <e p="ClothingComponent.cs" t="Include" />
           <e p="Dialogue.cs" t="Include" />
+          <e p="EnterDoor.cs" t="Include" />
+          <e p="ExitDoor.cs" t="Include" />
           <e p="Gold.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="Shopkeeper.cs" t="Include" />
